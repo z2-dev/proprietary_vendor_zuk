@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/system/bin/radish:system/bin/radish \
     vendor/zuk/z2_plus/proprietary/system/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zuk/z2_plus/proprietary/system/bin/irsc_util:system/bin/irsc_util \
-    vendor/zuk/z2_plus/proprietary/system/bin/ifaad:system/bin/ifaad \
     vendor/zuk/z2_plus/proprietary/system/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/z2_plus/proprietary/system/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zuk/z2_plus/proprietary/system/bin/pm-service:system/bin/pm-service \
@@ -50,8 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/system/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/system/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/zuk/z2_plus/proprietary/system/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/zuk/z2_plus/proprietary/system/lib/libifaa_daemon.so:system/lib/libifaa_daemon.so \
-    vendor/zuk/z2_plus/proprietary/system/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
     vendor/zuk/z2_plus/proprietary/system/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/zuk/z2_plus/proprietary/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zuk/z2_plus/proprietary/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -62,16 +59,12 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/system/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/zuk/z2_plus/proprietary/system/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/zuk/z2_plus/proprietary/system/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/zuk/z2_plus/proprietary/system/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
-    vendor/zuk/z2_plus/proprietary/system/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
     vendor/zuk/z2_plus/proprietary/system/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/zuk/z2_plus/proprietary/system/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
     vendor/zuk/z2_plus/proprietary/system/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/zuk/z2_plus/proprietary/system/lib64/hw/fingerprint.qcom.so:system/lib64/hw/fingerprint.qcom.so \
     vendor/zuk/z2_plus/proprietary/system/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
     vendor/zuk/z2_plus/proprietary/system/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
     vendor/zuk/z2_plus/proprietary/system/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
-    vendor/zuk/z2_plus/proprietary/system/framework/org.ifaa.android.manager.jar:system/framework/org.ifaa.android.manager.jar \
     vendor/zuk/z2_plus/proprietary/system/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/zuk/z2_plus/proprietary/system/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zuk/z2_plus/proprietary/system/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
