@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/radish:system/bin/radish \
     vendor/zuk/z2_plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zuk/z2_plus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/zuk/z2_plus/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/z2_plus/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/zuk/z2_plus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/z2_plus/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
