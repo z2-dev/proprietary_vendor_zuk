@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/z2_plus/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/z2_plus/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/zuk/z2_plus/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/z2_plus/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zuk/z2_plus/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
@@ -220,7 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -510,7 +508,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -640,7 +637,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
-    TimeService \
     datastatusnotification \
     shutdownlistener \
     CNEService \
