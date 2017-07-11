@@ -92,8 +92,8 @@ special_mode_mask values:
       <CPPSnapshot>s5k2m8sx_cpp_snapshot</CPPSnapshot>
       <CPPVideo>s5k2m8sx_cpp_video</CPPVideo>
       <CPPLiveshot>s5k2m8sx_cpp_liveshot</CPPLiveshot>
-      <A3Preview>s5k2m8sx_zsl_preview_dw9767</A3Preview>
-      <A3Video>s5k2m8sx_zsl_video_dw9767</A3Video>
+      <A3Preview>s5k2m8sx_zsl_preview_ak7371</A3Preview>
+      <A3Video>s5k2m8sx_zsl_video_ak7371</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
       <ISPPreview>s5k2m8sx_preview</ISPPreview>
@@ -103,8 +103,8 @@ special_mode_mask values:
       <CPPSnapshot>s5k2m8sx_cpp_snapshot</CPPSnapshot>
       <CPPVideo>s5k2m8sx_cpp_video</CPPVideo>
       <CPPLiveshot>s5k2m8sx_cpp_liveshot</CPPLiveshot>
-      <A3Preview>s5k2m8sx_default_preview_dw9767</A3Preview>
-      <A3Video>s5k2m8sx_default_video_dw9767</A3Video>
+      <A3Preview>s5k2m8sx_default_preview_ak7371</A3Preview>
+      <A3Video>s5k2m8sx_default_video_ak7371</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2">
       <ISPPreview>s5k2m8sx_hfr_60</ISPPreview>
@@ -114,8 +114,8 @@ special_mode_mask values:
       <CPPSnapshot>s5k2m8sx_cpp_hfr_60</CPPSnapshot>
       <CPPVideo>s5k2m8sx_cpp_hfr_60</CPPVideo>
       <CPPLiveshot>s5k2m8sx_cpp_hfr_60</CPPLiveshot>
-      <A3Preview>s5k2m8sx_hfr_60_dw9767</A3Preview>
-      <A3Video>s5k2m8sx_hfr_60_dw9767</A3Video>
+      <A3Preview>s5k2m8sx_hfr_60_ak7371</A3Preview>
+      <A3Video>s5k2m8sx_hfr_60_ak7371</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="3">
       <ISPPreview>s5k2m8sx_hfr_90</ISPPreview>
@@ -125,8 +125,8 @@ special_mode_mask values:
       <CPPSnapshot>s5k2m8sx_cpp_hfr_90</CPPSnapshot>
       <CPPVideo>s5k2m8sx_cpp_hfr_90</CPPVideo>
       <CPPLiveshot>s5k2m8sx_cpp_hfr_90</CPPLiveshot>
-      <A3Preview>s5k2m8sx_hfr_90_dw9767</A3Preview>
-      <A3Video>s5k2m8sx_hfr_90_dw9767</A3Video>
+      <A3Preview>s5k2m8sx_hfr_90_ak7371</A3Preview>
+      <A3Video>s5k2m8sx_hfr_90_ak7371</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="4">
       <ISPPreview>s5k2m8sx_hfr_120</ISPPreview>
@@ -136,8 +136,8 @@ special_mode_mask values:
       <CPPSnapshot>s5k2m8sx_cpp_hfr_120</CPPSnapshot>
       <CPPVideo>s5k2m8sx_cpp_hfr_120</CPPVideo>
       <CPPLiveshot>s5k2m8sx_cpp_hfr_120</CPPLiveshot>
-      <A3Preview>s5k2m8sx_hfr_120_dw9767</A3Preview>
-      <A3Video>s5k2m8sx_hfr_120_dw9767</A3Video>
+      <A3Preview>s5k2m8sx_hfr_120_ak7371</A3Preview>
+      <A3Video>s5k2m8sx_hfr_120_ak7371</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
