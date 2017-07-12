@@ -117,7 +117,10 @@ case "$target" in
         echo 300000 > /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
         echo 1 > /sys/devices/system/cpu/cpu2/cpufreq/interactive/ignore_hispeed_on_notif
 
-		# for cpu freq scaling
+	# disable nightmode display
+	echo 1 > /sys/devices/virtual/graphics/fb0/ct_onoff
+
+	# for cpu freq scaling
         chown -h system /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq
         chmod -h 664    /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq
 
