@@ -25,5 +25,5 @@ PRODUCT_PACKAGES += \
     colorservice \
     qcrilhook
 
-$(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/zuk/z2_row/qcom/msm8996/graphics/graphics-vendor.mk)
 $(call inherit-product, vendor/zuk/z2_row/vendor/copyfiles.mk)
