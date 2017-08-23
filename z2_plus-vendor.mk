@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/zuk/z2_plus/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/zuk/z2_plus/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
     vendor/zuk/z2_plus/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
