@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/zuk/z2_plus/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/zuk/z2_plus/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/zuk/z2_plus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/z2_plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/bin/radish:system/bin/radish \
     vendor/zuk/z2_plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -47,6 +46,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/z2_plus/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/zuk/z2_plus/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/zuk/z2_plus/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/zuk/z2_plus/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zuk/z2_plus/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
@@ -76,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/zuk/z2_plus/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/zuk/z2_plus/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/zuk/z2_plus/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
     vendor/zuk/z2_plus/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
@@ -84,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/z2_plus/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/zuk/z2_plus/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/zuk/z2_plus/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/zuk/z2_plus/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zuk/z2_plus/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/zuk/z2_plus/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
@@ -127,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/zuk/z2_plus/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
     vendor/zuk/z2_plus/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.leds.sh:system/etc/init.leds.sh \
     vendor/zuk/z2_plus/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/zuk/z2_plus/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
     vendor/zuk/z2_plus/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
@@ -139,24 +139,29 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/zuk/z2_plus/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/zuk/z2_plus/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/zuk/z2_plus/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zuk/z2_plus/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/zuk/z2_plus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/zuk/z2_plus/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zuk/z2_plus/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zuk/z2_plus/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/zuk/z2_plus/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/zuk/z2_plus/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/zuk/z2_plus/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/zuk/z2_plus/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/zuk/z2_plus/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zuk/z2_plus/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/zuk/z2_plus/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
@@ -296,7 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
@@ -422,7 +426,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
@@ -441,7 +444,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -450,7 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
@@ -559,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
@@ -584,15 +584,13 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -614,7 +612,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -635,7 +632,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
@@ -662,7 +658,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
