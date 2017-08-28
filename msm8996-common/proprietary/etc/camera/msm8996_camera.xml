@@ -87,8 +87,9 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>s5k2m8sx</SensorName>
-    <ActuatorName>dw9767</ActuatorName>
+    <ActuatorName>ak7371</ActuatorName>
     <EepromName>onsemi_cat24c64</EepromName>
+    <OisName>bu24218gwl</OisName>
     <FlashName>pmic</FlashName>
     <ChromatixName>s5k2m8sx_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
@@ -101,11 +102,11 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.881</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FocalLength>4.216</FocalLength>
+      <FNumber>1.8</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>67.52</HorizontalViewAngle>
-      <VerticalViewAngle>50.64</VerticalViewAngle>
+      <HorizontalViewAngle>62.24</HorizontalViewAngle>
+      <VerticalViewAngle>46.68</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -119,7 +120,7 @@ LensInfo : Information of the lens present in the module.
     <MountAngle>360</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
+      <LaneMask>0x07</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
@@ -133,4 +134,3 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
-
