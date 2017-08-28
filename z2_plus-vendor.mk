@@ -318,6 +318,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -584,6 +585,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
