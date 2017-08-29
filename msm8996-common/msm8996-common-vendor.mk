@@ -222,7 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_none.so:system/vendor/lib/libchromatix_ov8865_hfr_120_none.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.sos:system/vendor/lib/libchromatix_ov8865_hfr_60_none.sos \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.so:system/vendor/lib/libchromatix_ov8865_hfr_60_none.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_none.so:system/vendor/lib/libchromatix_ov8865_hfr_90_none.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
