@@ -43,13 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/zuk/z2_plus/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/zuk/z2_plus/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/zuk/z2_plus/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
