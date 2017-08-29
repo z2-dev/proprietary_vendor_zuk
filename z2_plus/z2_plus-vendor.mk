@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/zuk/z2_plus/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/z2_plus/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zuk/z2_plus/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zuk/z2_plus/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
