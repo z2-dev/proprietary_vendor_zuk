@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zuk/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/zuk/msm8996-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/zuk/msm8996-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -51,9 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/zuk/msm8996-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
     vendor/zuk/msm8996-common/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zuk/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zuk/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -223,7 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_none.so:system/vendor/lib/libchromatix_ov8865_hfr_120_none.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.so:system/vendor/lib/libchromatix_ov8865_hfr_60_none.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.sos:system/vendor/lib/libchromatix_ov8865_hfr_60_none.sos \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_none.so:system/vendor/lib/libchromatix_ov8865_hfr_90_none.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
@@ -232,22 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:system/vendor/lib/libchromatix_s5k2m8sx_common.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_90.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_liveshot.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_preview.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_preview.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_video.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_video.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_default_video.so:system/vendor/lib/libchromatix_s5k2m8sx_default_video.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_120.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_60.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_60.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_90.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_90.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_liveshot.so:system/vendor/lib/libchromatix_s5k2m8sx_liveshot.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_postproc.so:system/vendor/lib/libchromatix_s5k2m8sx_postproc.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_preview.so:system/vendor/lib/libchromatix_s5k2m8sx_preview.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_s5k2m8sx_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_snapshot.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -532,6 +515,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
