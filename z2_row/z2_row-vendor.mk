@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_snapshot.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libois_bu24218gwl.so:system/vendor/lib/libois_bu24218gwl.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
