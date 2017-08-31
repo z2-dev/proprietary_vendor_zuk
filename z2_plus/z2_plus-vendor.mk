@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
     vendor/zuk/z2_plus/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/zuk/z2_plus/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/zuk/z2_plus/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/zuk/z2_plus/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/z2_plus/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/zuk/z2_plus/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
