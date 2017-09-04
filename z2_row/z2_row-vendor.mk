@@ -17,18 +17,40 @@
 
 PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/zuk/z2_row/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/zuk/z2_row/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/zuk/z2_row/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/zuk/z2_row/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/zuk/z2_row/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/zuk/z2_row/proprietary/etc/permissions/com.maxim.biosensor.xml:system/etc/permissions/com.maxim.biosensor.xml \
+    vendor/zuk/z2_row/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/zuk/z2_row/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zuk/z2_row/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
@@ -39,14 +61,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.eq:system/etc/tfa98xx/shenqi_speech.eq \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.preset:system/etc/tfa98xx/shenqi_speech.preset \
-    vendor/zuk/z2_row/proprietary/framework/oat/arm64/QtiTelephonyServicelibrary.odex:system/framework/oat/arm64/QtiTelephonyServicelibrary.odex \
-    vendor/zuk/z2_row/proprietary/framework/oat/arm64/qcrilhook.odex:system/framework/oat/arm64/qcrilhook.odex \
-    vendor/zuk/z2_row/proprietary/framework/oat/arm64/qti-telephony-common.odex:system/framework/oat/arm64/qti-telephony-common.odex \
-    vendor/zuk/z2_row/proprietary/framework/oat/arm64/services.odex:system/framework/oat/arm64/services.odex \
-    vendor/zuk/z2_row/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/zuk/z2_row/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/zuk/z2_row/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/zuk/z2_row/proprietary/framework/com.maxim.biosensor.jar:system/framework/com.maxim.biosensor.jar \
+    vendor/zuk/z2_row/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/zuk/z2_row/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/zuk/z2_row/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:system/vendor/lib/libchromatix_s5k2m8sx_common.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
@@ -71,9 +88,15 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_snapshot.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libois_bu24218gwl.so:system/vendor/lib/libois_bu24218gwl.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/sensors.maxim-bio.so:system/vendor/lib/sensors.maxim-bio.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/sensors.maxim-bio.so:system/vendor/lib64/sensors.maxim-bio.so
+
+PRODUCT_PACKAGES += \
+    LSF-User-Phone \
+    LSF \
+    XuiUHealth
