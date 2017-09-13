@@ -77,5 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so
