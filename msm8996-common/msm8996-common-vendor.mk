@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
-    vendor/zuk/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
@@ -561,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
@@ -584,7 +582,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libsdm-disp-apis \
     libthermalclient \
-    libtime_genoff \
     QtiTelephonyService \
     datastatusnotification \
     shutdownlistener \
