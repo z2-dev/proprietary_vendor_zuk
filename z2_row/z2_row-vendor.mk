@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/framework/com.maxim.biosensor.jar:system/framework/com.maxim.biosensor.jar \
     vendor/zuk/z2_row/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/zuk/z2_row/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/zuk/z2_row/proprietary/lib/libmaximsensor-jni.so:system/lib/libmaximsensor-jni.so \
+    vendor/zuk/z2_row/proprietary/lib/libmaximsensormgr-jni.so:system/lib/libmaximsensormgr-jni.so \
+    vendor/zuk/z2_row/proprietary/lib64/libmaximsensor-jni.so:system/lib64/libmaximsensor-jni.so \
+    vendor/zuk/z2_row/proprietary/lib64/libmaximsensormgr-jni.so:system/lib64/libmaximsensormgr-jni.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:system/vendor/lib/libchromatix_s5k2m8sx_common.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
@@ -74,9 +78,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libois_bu24218gwl.so:system/vendor/lib/libois_bu24218gwl.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/sensors.maxim-bio.so:system/vendor/lib/sensors.maxim-bio.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib64/libmxbio.so:system/vendor/lib64/libmxbio.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib64/libmxbio_uv.so:system/vendor/lib64/libmxbio_uv.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/sensors.maxim-bio.so:system/vendor/lib64/sensors.maxim-bio.so
 
 PRODUCT_PACKAGES += \
-    LSF-User-Phone \
-    LSF \
     XuiUHealth
