@@ -86,4 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib64/sensors.maxim-bio.so:system/vendor/lib64/sensors.maxim-bio.so
 
 PRODUCT_PACKAGES += \
+    LSF-User-Phone \
+    LSF \
     XuiUHealth
