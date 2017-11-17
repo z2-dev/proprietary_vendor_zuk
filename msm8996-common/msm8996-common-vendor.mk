@@ -143,8 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/zuk/msm8996-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/zuk/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/zuk/msm8996-common/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/zuk/msm8996-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
