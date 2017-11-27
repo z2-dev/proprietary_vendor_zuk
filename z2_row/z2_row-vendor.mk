@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/zuk/z2_row/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/zuk/z2_row/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/zuk/z2_row/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/zuk/z2_row/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
-    vendor/zuk/z2_row/proprietary/etc/permissions/com.maxim.biosensor.xml:system/etc/permissions/com.maxim.biosensor.xml \
     vendor/zuk/z2_row/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zuk/z2_row/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
@@ -40,13 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.eq:system/etc/tfa98xx/shenqi_speech.eq \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.preset:system/etc/tfa98xx/shenqi_speech.preset \
-    vendor/zuk/z2_row/proprietary/framework/com.maxim.biosensor.jar:system/framework/com.maxim.biosensor.jar \
-    vendor/zuk/z2_row/proprietary/lib/libmaximsensor-jni.so:system/lib/libmaximsensor-jni.so \
-    vendor/zuk/z2_row/proprietary/lib/libmaximsensormgr-jni.so:system/lib/libmaximsensormgr-jni.so \
-    vendor/zuk/z2_row/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/zuk/z2_row/proprietary/lib64/libmaximsensor-jni.so:system/lib64/libmaximsensor-jni.so \
-    vendor/zuk/z2_row/proprietary/lib64/libmaximsensormgr-jni.so:system/lib64/libmaximsensormgr-jni.so \
-    vendor/zuk/z2_row/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:system/vendor/lib/libchromatix_s5k2m8sx_common.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
@@ -75,13 +66,4 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libois_bu24218gwl.so:system/vendor/lib/libois_bu24218gwl.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib/sensors.maxim-bio.so:system/vendor/lib/sensors.maxim-bio.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib64/libmxbio.so:system/vendor/lib64/libmxbio.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib64/libmxbio_uv.so:system/vendor/lib64/libmxbio_uv.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib64/sensors.maxim-bio.so:system/vendor/lib64/sensors.maxim-bio.so
-
-PRODUCT_PACKAGES += \
-    LSF-User-Phone \
-    LSF \
-    XuiUHealth
+    vendor/zuk/z2_row/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so
